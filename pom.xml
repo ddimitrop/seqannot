@@ -7,12 +7,22 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>seqannot</name>
   <url>http://maven.apache.org</url>
+  <scm>
+    <connection>scm:git:git://github.com/ddimitrop/seqannot.git</connection>
+    <developerConnection>scm:git:https://ddimitrop@github.com/ddimitrop/seqannot.git</developerConnection>
+    <url>https://github.com/ddimitrop/seqannot</url>
+  </scm>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+    	<groupId>org.apache.commons</groupId>
+    	<artifactId>commons-lang3</artifactId>
+    	<version>3.1</version>
     </dependency>
   </dependencies>
 </project>
